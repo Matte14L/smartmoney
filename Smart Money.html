@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartMoney - Tu dinero bajo control</title>
+<style>
+body {font-family: 'Arial', sans-serif; margin:0; padding:0; line-height:1.6; background-color:#f0f4f8; color:#333;}
+header {background: linear-gradient(to right, #2a9d8f, #264653); color:white; text-align:center; padding:50px 20px;}
+header h1 {font-size:3em; margin-bottom:10px;}
+header p {font-size:1.5em; margin:0;}
+nav {display:flex; justify-content:center; background-color:#264653; flex-wrap:wrap;}
+nav a {color:white; text-decoration:none; padding:15px 20px; transition: background 0.3s;}
+nav a:hover {background-color:#2a9d8f;}
+section {padding:60px 20px; max-width:1200px; margin:auto;}
+h2 {text-align:center; margin-bottom:40px; color:#2a9d8f;}
+.features, .testimonials {display:flex; flex-wrap:wrap; justify-content:space-around;}
+.feature, .testimonial {background:white; margin:10px; padding:30px 20px; flex:1 1 300px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); text-align:center;}
+.feature h3, .testimonial h3 {color:#264653;}
+.cta-button {display:inline-block; background-color:#e76f51; color:white; padding:15px 30px; text-decoration:none; border-radius:50px; font-size:1.1em; margin-top:20px; transition: background 0.3s;}
+.cta-button:hover {background-color:#f4a261;}
+footer {background-color:#264653; color:white; text-align:center; padding:40px 20px;}
+img.qr, img.local-img {display:block; margin:20px auto; width:150px; border-radius:10px;}
+img.local-img {width:80%; max-width:800px;}
+@media(max-width:768px){.features, .testimonials{flex-direction:column;}}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>SmartMoney</h1>
+    <p>Tu dinero bajo control</p>
+</header>
+
+<nav>
+    <a href="#empresa">Empresa</a>
+    <a href="#producto">Producto</a>
+    <a href="#caracteristicas">Características</a>
+    <a href="#testimonios">Opiniones</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="empresa">
+    <h2>Sobre la empresa</h2>
+    <p><strong>SmartMoney</strong> es una empresa creada en 2023 que se dedica al desarrollo de aplicaciones digitales para ayudar a las personas a <strong>controlar sus gastos e ingresos</strong> de manera sencilla y eficiente.</p>
+    <p>La empresa cuenta con departamentos de dirección, informática, marketing y administración, trabajando juntos para ofrecer la mejor experiencia a los usuarios.</p>
+    <img src="empresa.jpg" alt="Imagen de la empresa" class="local-img">
+</section>
+
+<section id="producto">
+    <h2>Producto</h2>
+    <p>El producto principal es nuestra <strong>aplicación móvil</strong> que permite a los usuarios:</p>
+    <ul>
+        <li>Registrar gastos e ingresos diarios</li>
+        <li>Gestionar presupuestos mensuales</li>
+        <li>Visualizar gráficos claros y fáciles de entender</li>
+        <li>Recibir alertas cuando se sobrepasa el presupuesto</li>
+    </ul>
+    <a href="https://www.smartmoney.com/download" target="_blank" class="cta-button">Descargar la app</a>
+    <img src="app.jpg" alt="Captura de la app" class="local-img">
+</section>
+
+<section id="caracteristicas">
+    <h2>Características principales</h2>
+    <div class="features">
+        <div class="feature">
+            <h3>Fácil de usar</h3>
+            <p>Interfaz sencilla e intuitiva, perfecta para estudiantes, jóvenes y trabajadores.</p>
+        </div>
+        <div class="feature">
+            <h3>Versión gratuita y premium</h3>
+            <p>Usa la versión gratuita o elige la premium con funciones adicionales.</p>
+        </div>
+        <div class="feature">
+            <h3>Control total del dinero</h3>
+            <p>Planifica tus gastos y mantén tu dinero bajo control.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonios">
+    <h2>Opiniones de nuestros usuarios</h2>
+    <div class="testimonials">
+        <div class="testimonial">
+            <h3>Laura G.</h3>
+            <p>"SmartMoney me ha ayudado a ahorrar y controlar mis gastos de manera increíble. ¡Muy recomendable!"</p>
+        </div>
+        <div class="testimonial">
+            <h3>Carlos M.</h3>
+            <p>"La app es muy intuitiva y fácil de usar. Me encanta poder ver todos mis gastos en un solo lugar."</p>
+        </div>
+        <div class="testimonial">
+            <h3>Andrea R.</h3>
+            <p>"La versión premium tiene funciones muy útiles y los gráficos son claros y visuales."</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes preguntas o quieres más información? Contáctanos:</p>
+    <ul>
+        <li>Email: <a href="mailto:info@smartmoney.com">info@smartmoney.com</a></li>
+        <li>Teléfono: <a href="tel:+34600123456">+34 600 123 456</a></li>
+        <li>Redes sociales: 
+            <a href="https://www.instagram.com/smartmoney" target="_blank">Instagram</a>, 
+            <a href="https://www.tiktok.com/@smartmoney" target="_blank">TikTok</a>, 
+            <a href="https://www.youtube.com/smartmoney" target="_blank">YouTube</a>
+        </li>
+    </ul>
+    <p>Escanea nuestro código QR o haz clic para descargar la app:</p>
+    <a href="https://www.smartmoney.com/download" target="_blank">
+        <img src="qr.png" alt="Código QR para descargar la app" class="qr">
+    </a>
+</section>
+
+<footer>
+    <p>&copy; 2026 SmartMoney - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
